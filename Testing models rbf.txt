@@ -1,0 +1,243 @@
+Testing models:
+
+Testing model with C = 0.01 and gamma = 1e-05
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.05680603  0.01069118 -0.04357531 -0.09827773 -0.05217994]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[2841 1321]
+ [ 405  500]]
+Recall for C = 0.01, gamma = 1e-05: 0.5525
+
+Testing model with C = 0.01 and gamma = 0.0001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.44511396  0.09981999 -0.35390201 -0.82855514 -0.45906654]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[2838 1324]
+ [ 390  515]]
+Recall for C = 0.01, gamma = 0.0001: 0.5691
+
+Testing model with C = 0.01 and gamma = 0.001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.37611307 -0.05149912 -0.1700625  -1.46043525 -0.94827697]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[2957 1205]
+ [ 298  607]]
+Recall for C = 0.01, gamma = 0.001: 0.6707
+
+Testing model with C = 0.01 and gamma = 0.01
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.03141386  0.00208822 -0.01768105 -0.58276344 -0.02348133]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[2806 1356]
+ [ 271  634]]
+Recall for C = 0.01, gamma = 0.01: 0.7006
+
+Testing model with C = 0.1 and gamma = 1e-05
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.45663183  0.10609182 -0.36464058 -0.84396753 -0.48994691]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[2838 1324]
+ [ 392  513]]
+Recall for C = 0.1, gamma = 1e-05: 0.5669
+
+Testing model with C = 0.1 and gamma = 0.0001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.35549389 -0.12120835 -0.06026777 -1.54012557 -1.06697062]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[2934 1228]
+ [ 279  626]]
+Recall for C = 0.1, gamma = 0.0001: 0.6917
+
+Testing model with C = 0.1 and gamma = 0.001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.58726508 -0.51181871 -0.1207856  -1.92230689 -1.04104199]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3116 1046]
+ [ 254  651]]
+Recall for C = 0.1, gamma = 0.001: 0.7193
+
+Testing model with C = 0.1 and gamma = 0.01
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.13363991 -0.31757606 -0.11282251 -1.61265082 -0.11594729]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[2990 1172]
+ [ 257  648]]
+Recall for C = 0.1, gamma = 0.01: 0.7160
+
+Testing model with C = 1 and gamma = 1e-05
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.35027268 -0.12520177 -0.05166943 -1.54150436 -1.07973328]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[2934 1228]
+ [ 278  627]]
+Recall for C = 1, gamma = 1e-05: 0.6928
+
+Testing model with C = 1 and gamma = 0.0001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.56245118 -0.45453591 -0.16005702 -1.92401278 -1.05811177]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3097 1065]
+ [ 259  646]]
+Recall for C = 1, gamma = 0.0001: 0.7138
+
+Testing model with C = 1 and gamma = 0.001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.74054395 -0.5892173  -0.54092967 -2.1563156  -1.41066053]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3312  850]
+ [ 253  652]]
+Recall for C = 1, gamma = 0.001: 0.7204
+
+Testing model with C = 1 and gamma = 0.01
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.47240047 -0.65451001 -0.77728351 -1.28980764 -0.39822019]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3658  504]
+ [ 273  632]]
+Recall for C = 1, gamma = 0.01: 0.6983
+
+Testing model with C = 10 and gamma = 1e-05
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.5196542  -0.44632198 -0.15677288 -1.91537853 -1.09606993]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3089 1073]
+ [ 257  648]]
+Recall for C = 10, gamma = 1e-05: 0.7160
+
+Testing model with C = 10 and gamma = 0.0001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.72699946 -0.42071872 -0.45686252 -2.11330733 -1.64624007]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3205  957]
+ [ 253  652]]
+Recall for C = 10, gamma = 0.0001: 0.7204
+
+Testing model with C = 10 and gamma = 0.001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.64964464 -0.64360093 -1.32436699 -2.14600945 -1.53509994]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3477  685]
+ [ 246  659]]
+Recall for C = 10, gamma = 0.001: 0.7282
+
+Testing model with C = 10 and gamma = 0.01
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.49705627 -0.62952634 -0.83371664 -1.27911622 -0.39205981]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3717  445]
+ [ 279  626]]
+Recall for C = 10, gamma = 0.01: 0.6917
+
+Testing model with C = 15 and gamma = 1e-05
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.56093846 -0.46716885 -0.25526057 -1.94772327 -1.14239802]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3115 1047]
+ [ 259  646]]
+Recall for C = 15, gamma = 1e-05: 0.7138
+
+Testing model with C = 15 and gamma = 0.0001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.71576464 -0.36588906 -0.60876671 -2.14045764 -1.76472645]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3220  942]
+ [ 253  652]]
+Recall for C = 15, gamma = 0.0001: 0.7204
+
+Testing model with C = 15 and gamma = 0.001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.72685853 -0.68913534 -1.56068513 -2.01019243 -1.71010196]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3496  666]
+ [ 249  656]]
+Recall for C = 15, gamma = 0.001: 0.7249
+
+Testing model with C = 15 and gamma = 0.01
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.49720264 -0.62963669 -0.8338671  -1.27925892 -0.39225229]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3721  441]
+ [ 279  626]]
+Recall for C = 15, gamma = 0.01: 0.6917
+
+Testing model with C = 20 and gamma = 1e-05
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.60329934 -0.48589836 -0.30085949 -1.96900038 -1.20350406]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3129 1033]
+ [ 256  649]]
+Recall for C = 20, gamma = 1e-05: 0.7171
+
+Testing model with C = 20 and gamma = 0.0001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.74986747 -0.31146987 -0.66993969 -2.17001618 -1.92112267]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3223  939]
+ [ 255  650]]
+Recall for C = 20, gamma = 0.0001: 0.7182
+
+Testing model with C = 20 and gamma = 0.001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.80382695 -0.78872515 -1.77221473 -1.86101507 -1.74274269]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3520  642]
+ [ 251  654]]
+Recall for C = 20, gamma = 0.001: 0.7227
+
+Testing model with C = 20 and gamma = 0.01
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.49728193 -0.62970796 -0.833943   -1.27933047 -0.39234789]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3724  438]
+ [ 278  627]]
+Recall for C = 20, gamma = 0.01: 0.6928
+
+Testing completed.
