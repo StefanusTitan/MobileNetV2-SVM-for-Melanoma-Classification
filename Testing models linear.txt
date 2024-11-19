@@ -1,0 +1,95 @@
+Testing models:
+
+Testing model with C = 0.001
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.60761615 -0.3856599  -0.36152271 -1.994356   -1.38427855]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3145 1017]
+ [ 254  651]]
+Recall for C = 0.001: 0.7193
+
+Testing model with C = 0.01
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.45812577 -0.08704579 -0.70860055 -2.21099101 -2.41202388]
+Predicted: [-1. -1. -1. -1. -1.]
+Confusion Matrix:
+ [[3160 1002]
+ [ 260  645]]
+Recall for C = 0.01: 0.7127
+
+Testing model with C = 0.1
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.26661497  0.29994617 -0.89112706 -2.40551467 -3.02374501]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[3148 1014]
+ [ 258  647]]
+Recall for C = 0.1: 0.7149
+
+Testing model with C = 0.2
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.27643086  0.34721812 -0.92652649 -2.38582313 -3.06615463]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[3157 1005]
+ [ 258  647]]
+Recall for C = 0.2: 0.7149
+
+Testing model with C = 0.3
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.24720034  0.31968704 -0.95827075 -2.38619655 -3.05178076]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[3154 1008]
+ [ 259  646]]
+Recall for C = 0.3: 0.7138
+
+Testing model with C = 0.4
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.2830311   0.33897585 -0.99108544 -2.44441461 -3.07783513]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[3153 1009]
+ [ 260  645]]
+Recall for C = 0.4: 0.7127
+
+Testing model with C = 0.5
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.29825068  0.34273339 -1.02550692 -2.47169134 -3.09178564]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[3152 1010]
+ [ 261  644]]
+Recall for C = 0.5: 0.7116
+
+Testing model with C = 1
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [ 0.32774445  0.0640603  -0.5849552  -1.27359773 -2.55107406]
+Predicted: [ 1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[3012 1150]
+ [ 300  605]]
+Recall for C = 1: 0.6685
+
+Testing model with C = 10
+X_test.shape: (5067, 1280)
+y_test.shape: (5067,)
+Projected: [-0.3521308   0.32690762 -1.00444708 -2.72058938 -3.45476438]
+Predicted: [-1.  1. -1. -1. -1.]
+Confusion Matrix:
+ [[3211  951]
+ [ 267  638]]
+Recall for C = 10: 0.7050
+
+Testing completed.
+
+Best: C=0.1 or C=0.2
