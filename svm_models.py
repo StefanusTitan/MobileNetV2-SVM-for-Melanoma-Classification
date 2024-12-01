@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 import numpy as np
 import numba
 from scipy import sparse
-from cvxopt import matrix, solvers
+from cvxopt import matrix, spmatrix, solvers
 
 class BaseSVM(ABC):
     def __init__(self, C=1.0, tolerance=1e-5):
